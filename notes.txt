@@ -1,0 +1,22 @@
+Q.1. java script kya hai?
+ans.1. java script ek scripting language hai jo webside me jaan dalta hai 
+html. se website ka dhancha(structure) banta hai.
+css. se design banta hai 
+java script. se kaam (logic) hota hai.
+jaise jab aap kisi button par click karte hai aur koi popup khulta hai. 
+toh woh java script ki wajah se hota hai.
+Q.2. yeh kaise shuru hua?
+ans.2. ise brendan eich ne 1995 mein banaya tha jab wo netscape naam ki company 
+mein kaam karte the.
+unhone iska pehla version sirf 10 din mein  taiyar kar diya tha!
+suru mein iska naam (mocha) rakha gya tha. phir (livescript) baad mein marketing ke
+liye iska naam (javascript) kar diya gya taki log us waqt ki famous"java" lagnguage se
+ isse jodne lagein (halaki java aur javascript bilkul alag hai.)
+Q.3. iska use kya hai?
+ans.3. aaj ke time mein javascript har jagah use hoti hai:
+1. websites mein: slideshows, interactive maps,aur forms ko check karne ke liye .
+2. mobile apps: Facebook aur instagram jaise apps banane mein bhi javascript ke 
+frameworks(jaise react native) ka use hota hai.
+server side par: node.js ki madat se ab javascript se computer ke servers bhi 
+chalaye jate hai.
+games: browser mein chalne wale games banane ke liye 
