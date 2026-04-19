@@ -20,3 +20,9 @@ frameworks(jaise react native) ka use hota hai.
 server side par: node.js ki madat se ab javascript se computer ke servers bhi 
 chalaye jate hai.
 games: browser mein chalne wale games banane ke liye 
+Topic.1.(variables) variable ek container hota hai jisme hum koi value rakhte hai.
+Javascript mein ise declare karne ke 3 main tarike hai:
+' let: Iska use tab karte hai jab value baad mein badalni ho.
+' const: iska use tab karte hai jab value fised rakhni ho (jaise kisi ka birthdayya pi kivalue).
+' var: ye purana tarika hai, ab ise zyada use nhi kiya jata.
+Topic.2. (data types) 
