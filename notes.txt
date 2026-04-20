@@ -21,8 +21,24 @@ server side par: node.js ki madat se ab javascript se computer ke servers bhi
 chalaye jate hai.
 games: browser mein chalne wale games banane ke liye 
 Topic.1.(variables) variable ek container hota hai jisme hum koi value rakhte hai.
+example- variable ek khali dabbe ki tarha hota h usme kuch saman rakhne ko value kehte hai   
 Javascript mein ise declare karne ke 3 main tarike hai:
-' let: Iska use tab karte hai jab value baad mein badalni ho.
-' const: iska use tab karte hai jab value fised rakhni ho (jaise kisi ka birthdayya pi kivalue).
-' var: ye purana tarika hai, ab ise zyada use nhi kiya jata.
+' let: Iska use tab karte hai jab value baad mein badalni ho agar hum value ko change karte hai to jo
+ value humne last mai value dali hai h wahi value show hogi.
+  example:
+ let score=50;
+ score=80;//value badal di, koi error nhi aega.
+ console.log (score); //output:80
+' const: iska use tab karte hai jab value fixed rakhni ho (jaise kisi ka birthdayya pi kivalue).
+example: 
+const birthyear = 1995; 
+birthyear  = 2003;// ye error dega kyuki const me value change nhi kar sakte hai.
+agar hum sirf 
+const birthyear = 1995; run kare to error nhi aega kyuki humne sirf ek hi bar value li hai 
+' var: ye purana tarika hai,or bhot asan bhi.
+example.
+var name = "mohit";
+var name ="manish";
+var name = "mamta";// output=mamta; isme error nhi aega.isme valriable or value ek se jada bar
+ change kar sakte hai.
 Topic.2. (data types) 
