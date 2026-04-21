@@ -5,10 +5,15 @@ console.log(5/5);
 console.log('hello wrold')
 
 
-let age = 30;
-const name ="nishu";
-var city = "uttar pradesh";
-var city = "delhi";
-console.log(name);
-console.log(age);
-console.log(city);
+let firstname = "chandni";
+let message = "Hello," + firstname + ", kya hal hai malik";
+
+console.log(firstname);
+console.log(message);
+
+
+let count = 5;
+let notification = `you have ${count} new orders to pack`;
+
+console.log(count);
+console.log(notification);
