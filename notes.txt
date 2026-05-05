@@ -20,25 +20,98 @@ frameworks(jaise react native) ka use hota hai.
 server side par: node.js ki madat se ab javascript se computer ke servers bhi 
 chalaye jate hai.
 games: browser mein chalne wale games banane ke liye 
-Topic.1.(variables) variable ek container hota hai jisme hum koi value rakhte hai.
+Topic.1.(variables):
+
+variable ek container hota hai jisme hum koi value rakhte hai.
+
 example- variable ek khali dabbe ki tarha hota h usme kuch saman rakhne ko value kehte hai   
 Javascript mein ise declare karne ke 3 main tarike hai:
-' let: Iska use tab karte hai jab value baad mein badalni ho agar hum value ko change karte hai to jo
+
+let: Iska use tab karte hai jab value baad mein badalni ho agar hum value ko change karte hai to jo
  value humne last mai value dali hai h wahi value show hogi.
-  example:
+
+example:
+
  let score=50;
  score=80;//value badal di, koi error nhi aega.
- console.log (score); //output:80
-' const: iska use tab karte hai jab value fixed rakhni ho (jaise kisi ka birthdayya pi kivalue).
+ console.log (score); //output:80.
+ 
+ const: iska use tab karte hai jab value fixed rakhni ho (jaise kisi ka birthdayya pi kivalue).
 example: 
+
 const birthyear = 1995; 
 birthyear  = 2003;// ye error dega kyuki const me value change nhi kar sakte hai.
-agar hum sirf 
+agar hum sirf
+
 const birthyear = 1995; run kare to error nhi aega kyuki humne sirf ek hi bar value li hai 
 ' var: ye purana tarika hai,or bhot asan bhi.
+
 example.
+
 var name = "mohit";
 var name ="manish";
 var name = "mamta";// output=mamta; isme error nhi aega.isme valriable or value ek se jada bar
  change kar sakte hai.
+
+2. string ka jodna
+
+hum do ya do se zyanda string ko + sing use karke jod sakte hai.
+example.
+
+let item = "tube light";
+let action = "packing ho gyi hai";
+let finalmessage = item + action;
+result: tube light packing ho gyi hai.
+
 Topic.2. (data types) 
+
+1.numbers ( numberic types)
+jab hume hisba kitab ya calculation ho.
+: integer(int): ye pure numbers hote hai, bina decimal ke.
+
+example, 10,-5,2024,
+ 
+: float/double: ye dicimal wale numbers hote hai.
+
+example, 99.9, 3.14, -0.5,
+
+2. text (string type)
+
+iska use hume kisi ka naam, address, ya koi bhi message store karne ke liye karte hai,
+
+: strin(str): isse humesha questes("" ya '') me likha jata hai .
+
+3. logic(boolean type)
+
+ye sabse simple type hai, ismein sirf do hi otption hote hai.
+
+: boolean(bool):
+
+:true: haan/ sahi
+:false: nhi/ galat
+
+: undifined 
+
+jab hum koi variable lete hai lekin usme koi value nhi dete tab computer use 
+undifined keh deta hai.
+
+: null 
+iska maltb hai ki humne jaan bhuj kar us vairble  ko khali rakha hai. ye ek tarah ki 
+'empty value" hai jo aap khud assing karte hai.(simple word me khali koi khali jagah)
+
+Topic 3:  Operators;
+
+
+: addition operator;
+
+addition operator ka main kam di ya do se zyada number ko jodna hota hai.
+iska use sirf maths ke liye hi nhi, balki words (stirng) ko jordne ke liye 
+bhi kiya jata hai.
+
+example : let a = 10;
+let b = 20;
+let sum = a+b; // result: 30
+
+example 2: let firstname = "rahul";
+let lastname = "sharma";
+let fullname = firstname +""+ lastname; // result: rahul sharma
